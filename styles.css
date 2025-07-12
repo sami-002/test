@@ -1,0 +1,132 @@
+body {
+  background: linear-gradient(135deg, #151515 0%, #141414 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: rgba(1, 1, 1, 0.85) !important; /* gold, semi-transparent */
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: white !important;
+  letter-spacing: 2px;
+}
+.navbar-nav .nav-link {
+  color: #bfa100 !important; /* gold example */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #fff !important; /* white on active/hover */
+}
+
+.card {
+  background: rgba(70, 5, 5, 0.7);
+  backdrop-filter: blur(4px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  color: #333;
+  border: none;
+}
+.row :hover{
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #131311;
+  border: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #1a1a18;
+  color: #333;
+  scale: 1.05;
+  
+}
+
+.availability.available {
+  background-color: #2edc31;
+  color: #fff;
+  
+}
+
+.availability.unavailable {
+  background-color: #dc3545;
+  color: #fff;
+  
+  
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  background: url( Burger\ Restaurant\ Food\ Background\,\ Hamburger\,\ Restaurant\,\ Food\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.hero-text h1 {
+  color: #bfa100;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.hero-text p {
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 { font-size: 2rem; padding: 0.5rem; }
+  .card { border-radius: 0.5rem; }
+}
+.nav-tabs {
+  background-color: #000;
+  padding: 10px;
+}
+.nav-link{
+  color: #bfa100 !important; /* gold */
+  font-weight: bold;
+}
+.nav-link.active{
+  color: #ccc309 !important; /* white on active */
+  background-color: transparent; 
+}
+.formsection {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  color: white !important;
+}
